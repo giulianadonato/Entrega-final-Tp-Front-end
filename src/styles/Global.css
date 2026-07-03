@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Open Sans', sans-serif; 
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+main {
+    min-height: 100vh;
+    padding-top: 10px; 
+}
+
+section {
+    min-height: 100vh; 
+    padding: 40px 5%;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+.gallery-section {
+    padding: 60px 5%;
+    background-color: #fffafb; 
+    text-align: center;
+}
+
+.gallery-section h2 {
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px; 
+}
+
+.gallery-item {
+    background: #fff;
+    border-radius: 12px; 
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover { transform: translateY(-5px); }
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    display: block;
+}
+
+.gallery-item p {
+    padding: 15px;
+    font-weight: bold;
+    color: #a57d7d;
+    font-size: 0.95em;
+}
